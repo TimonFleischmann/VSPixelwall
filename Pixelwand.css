@@ -1,0 +1,72 @@
+#canvas{
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  max-width: 550px;
+  border: 2px solid white;
+  
+  cursor: crosshair;
+  touch-action: none;
+  background-color: white;
+  
+}
+
+body{
+ background-color: #1e212d;
+}
+
+#palette{
+  position: fixed;
+  top: 50%;
+  left: 0%; /* align to left */
+  transform: translateY(-50%);
+  padding: 0px;
+  color: white;
+  max-width: 150px;
+}
+
+#palette .item{
+  display: inline-block;
+  float: left; /* toolbar items stack to left */
+  padding: 15px;
+  border: 1px solid #FFF;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  font-family: Arial, FontAwesome;
+  font-size: 24px
+}
+
+#palette #red{
+ background-color:red;
+}
+
+#palette #blue{
+   background-color:blue;
+}
+
+ #palette #black{
+   background-color:black;
+ }
+
+  #palette #green{
+   background-color:green;
+ }
+
+  #palette #yellow{
+   background-color:yellow;
+ }
+
+  #palette #brown{
+   background-color:brown;
+ }
+  #palette #grey{
+   background-color:grey;
+ }
+
+  #palette #lila{
+   background-color:violet;
+ }
